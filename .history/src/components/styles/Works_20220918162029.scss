@@ -1,0 +1,128 @@
+.projects {
+    background:linear-gradient(45deg,rgba(208, 174, 254, 0.77),rgba(244, 67, 2, 0.562));
+    h1 {
+        align-items: center;
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: 1rem;
+        padding-top: 2rem;
+    }
+}
+.works {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.work__section {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+@media (min-width:50em) {
+    .work__section {
+        padding: 15px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+        gap: 1.5rem;
+    }
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid rgb(224, 224, 224);
+    padding: 5px;
+    box-shadow: 5px red;
+    body {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    img {
+        height: 100%;
+        margin-bottom: 5px;
+    }
+
+    button {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        background: transparent;
+        border: 3px solid rgb(255, 255, 255);
+        padding: 10px 20px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        opacity: 0;
+        font-size: 20px;
+        font-weight: bolder;
+        text-transform: uppercase;
+
+        .cards-details {
+            background-color: gray;
+        }
+        &:hover {
+            background: #fff;
+            color: firebrick;
+        }
+       
+    }
+
+    h4 {
+        padding-top: 5px;
+        border-bottom: 0.1px solid rgb(200, 200, 200);
+
+    }
+    div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    span {
+      
+        background-color: rgb(244, 244, 244);
+        border: 1px solid rgb(232, 232, 232);
+        color: rgb(101, 101, 101);
+        margin-right: 5px;
+        margin-top: 5px;
+        border-radius: 5px;
+        padding: 2px 5px 2px 5px;
+        
+        
+        
+    }
+    &:hover button {
+        opacity: 1;
+        transition: 450ms;
+    }
+
+    &:hover img {
+        opacity: .6;
+    }
+}
+
+
+
+
+
+
+
+
+@media(max-width:800px){
+    .work__section {
+    padding: 12px;
+    display: grid;
+    gap: 1.335rem;
+
+
+    .cards {
+        padding: 5px;
+    }
+
+}}
+
+    

@@ -10,6 +10,7 @@ ReactDOM.render(
           <Route path='/' element={<App/>}/>
           <Route path='/contact' element={<Contact/>}/>
         </Routes>
+        
     </Router>,
   document.getElementById('root')
 );

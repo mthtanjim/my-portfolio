@@ -16,7 +16,7 @@ const Header = () => {
         <div className='header'>
 
                     <div className="header__logo">
-                        <h1>Leedd</h1>
+                        <h1>Tanjim </h1>
                     </div>
 
             <nav className={active ? 'navbar active' : 'navbar'}>
@@ -35,10 +35,7 @@ const Header = () => {
                         <Link to='/'>Portfolio</Link>
                     </li>
                     <li>
-                        <Link to='/'>Pages</Link>
-                    </li>
-                    <li>
-                        <Link to='/'>Blog</Link>
+                        <Link to='#'>Blog</Link>
                     </li>
                     <li>
                         <Link to='/contact'>Contact</Link>
