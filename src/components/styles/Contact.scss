@@ -1,14 +1,14 @@
-.contact{
-    width: 80%;
-    padding: 15px 15px 15px 15px;
-    background:linear-gradient(233deg, #2b1103, #270404, #061d03, #080530);
-    width:100%;
-    height:80vh;
-    background-size:cover;
-    background-blend-mode: hard-light;
+.contact {
+  width: 80%;
+  padding: 15px 15px 15px 15px;
+  background: linear-gradient(233deg, #2b1103, #270404, #061d03, #080530);
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-blend-mode: hard-light;
 
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 a {
   color: rgb(82, 76, 76);
@@ -16,7 +16,7 @@ a {
 }
 
 .inputs {
-    width: 59%;
+  width: 59%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -57,56 +57,119 @@ a {
 }
 
 .info {
-    width: 39%;
-    display: flex;
-    justify-content: center;
+  width: 39%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  .contactinfo {
+    color: rgb(179, 179, 179);
+    line-height: 2rem;
+    h3 {
+      font-size: 2rem;
+    }
+    span {
+      line-height: 2rem;
+      font-size: 1.5rem;
+    }
+  }
+  .socials {
+    margin-top: 2rem;
+    color: rgb(202, 202, 202);
+  }
+  h4 {
+    color: white;
+  }
+}
+
+.container-top {
+  @keyframes rotate {
+    100% {
+      transform: rotate(1turn);
+    }
+  }
+  box-shadow: rgba(114, 103, 137, 0.418) 0px 3px 15px,
+    rgba(83, 61, 125, 0.697) 0px 5px 12px;
+  display: flex;
+  
+  position:sticky;
+  z-index: 0;
+  width: 60px;
+  height: 40px;
+  top: 90%;
+  left: 90%;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid rgb(175, 175, 175);
+
+  &::before {
+    content: "";
+    position: absolute;
+
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-image: linear-gradient(#000, #000),
+      linear-gradient(#dededef6, #d8d8d8fa),
+      linear-gradient(#000, #000),
+      linear-gradient(#dededef6, #d8d8d8fa);
+    animation: rotate 5s linear infinite;
+  }
+}
+
+.top {
+  position: sticky;
+  margin: 2px;
+  border-radius: 5px;
+  background-color: #261d4d;
+  color: rgb(202, 202, 202);
+  box-shadow: rgba(130, 130, 130, 0.595) 0px 3px 15px,
+  rgba(89, 89, 89, 0.639) 0px 5px 12px;
+}
+.top:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+  text-align: center;
+  background-color: #05031c;
+
+}
+
+@media (max-width: 600px) {
+  .contact {
     flex-direction: column;
-    .contactinfo {
-        color: rgb(179, 179, 179);
-        line-height: 2rem;
+    height: max-content;
+    .info {
+      margin-top: 2rem;
+      width: 90%;
+      .contactinfo {
+        text-align: left;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
         h3 {
-            font-size: 2rem;
+          font-size: 20px;
         }
         span {
-            line-height: 2rem;
-            font-size: 1.5rem;
+          font-size: 14px;
         }
+      }
     }
-    .socials {
-        margin-top: 2rem;
-        color: rgb(202, 202, 202);
-    }
-    h4 {
-        color: white;
-    }
-}
-@media (max-width: 600px) { 
-    .contact {
-        flex-direction: column;
-        height: max-content;
-        .info {
-            margin-top: 2rem;
-            width: 90%;
-            .contactinfo {
-                text-align:left;
-                display: flex;
-                align-items: left;
-                flex-direction: column;
-                h3 {
-                  font-size: 20px;
-                }
-                span {
-                  font-size: 14px;
-                }
-            }
-        }
-    }
+  }
 }
 
 @media (max-width: 550px) {
-
-    input {
-      padding: 15px;
-    }
-  
+  input {
+    padding: 15px;
+  }
 }

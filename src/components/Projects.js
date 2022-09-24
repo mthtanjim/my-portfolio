@@ -1,14 +1,14 @@
 import React from "react";
-import react from "./assets/react.jpg"
-import leonf from "./assets/leonf.png"
-import admin from "./assets/admin.png"
+import react from "./assets/react.jpg";
+import leonf from "./assets/leonf.png";
+import admin from "./assets/admin.png";
 import dominno from "./assets/dominno.png";
 import pp from "./assets/pp.png";
 import bim from "./assets/bim.png";
 import "./styles/Works.scss";
 import ProjectsCard from "./ProjectsCard";
 import projects from "./assets/data";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -18,15 +18,11 @@ const Projects = () => {
         <div className="work__section">
           <div className="cards">
             <img src={leonf} alt="" />
-        
-            <a
-                href="https://leonbd.com"
-                target="_blank"
-                rel="noreferrer"
-                >
-                See Live Projects
+
+            <a href="https://leonbd.com" target="_blank" rel="noreferrer">
+              See Live Projects
             </a>
-        
+
             <h4>Pharmaciticals Industries</h4>
             <div>
               <span>Reactjs</span>
@@ -54,7 +50,6 @@ const Projects = () => {
           </div>
           <div className="cards">
             <img src={admin} alt="" />
-              
             <h4>Admin Dashboard Frontend</h4>
             <div>
               <span>React js</span>
@@ -64,7 +59,6 @@ const Projects = () => {
           </div>
           <div className="cards">
             <img src={react} alt="" />
-            
             <h4>Consumer Products Manufacturer Industries</h4>
             <div>
               <span>React js</span>
@@ -72,15 +66,10 @@ const Projects = () => {
               <span>Firebase</span>
             </div>
           </div>
-
           <div className="cards">
             <img src={pp} alt="" />
-            <a
-                href="https://leonbd.com"
-                target="_blank"
-                rel="noreferrer"
-                >
-                Visit Github
+            <a href="https://github.com/mthtanjim/my-portfolio" target="_blank" rel="noreferrer">
+              Visit Github
             </a>
             <h4>React Portfolio Website</h4>
             <div>
@@ -88,15 +77,10 @@ const Projects = () => {
               <span>SCSS</span>
             </div>
           </div>
-
           <div className="cards">
             <img src={dominno} alt="" />
-            <a
-                href="https://leonbd.com"
-                target="_blank"
-                rel="noreferrer"
-                >
-                See Live Projects
+            <a href="https://dominno-bd.com" target="_blank" rel="noreferrer">
+              See Live Projects
             </a>
             <h4>Real Estate Website</h4>
             <div>
@@ -105,35 +89,30 @@ const Projects = () => {
               <span>Custom JS</span>
             </div>
           </div>
-
           <div className="cards">
             <img src={bim} alt="" />
-            <a
-                href="https://leonbd.com"
-                target="_blank"
-                rel="noreferrer"
-                >
-                See Live Project
+            <a href="profilelimited.com" target="_blank" rel="noreferrer">
+              See Live Project
             </a>
             <h4>Architectural Company</h4>
             <div>
-            <span>Wordpress</span>
+              <span>Wordpress</span>
               <span>Custom CSS</span>
               <span>Custom JS</span>
             </div>
           </div>
-
           <div className="cards">
             <img src={react} alt="" />
-            <button>See Work</button>
+            <a href="https://bimenvision.com/" target="_blank" rel="noreferrer">
+              See Live Project
+            </a>
             <h4>Architectural Company</h4>
             <div>
-            <span>Wordpress</span>
+              <span>Wordpress</span>
               <span>Custom CSS</span>
               <span>Custom JS</span>
             </div>
           </div>
-
         </div>
       </div>
     </div>

@@ -1,14 +1,54 @@
 import React from "react";
 import "./styles/Section.scss";
 import man2 from "./assets/mthtanjim.jpg";
+import { BsCodeSlash } from "react-icons/bs";
+import { HiOutlineMinus } from "react-icons/hi";
+import { MdOutlineCampaign } from "react-icons/md";
+import { SiGooglesearchconsole } from "react-icons/si";
+import design from "./assets/responsive-design.svg";
+import digital from "./assets/digital-marketing.svg";
+import seo from "./assets/seo.svg";
 
+import code from "./assets/code.svg";
 const Section = () => {
   return (
-    <div className="section">
+    <div className="section" id="Section">
+      <div className="section_skills__container">
+        <div className="ProfessionalSkillshead">
+          <h4>
+            {" "}
+            <HiOutlineMinus className="icon" />
+            Professional
+          </h4>
+          <h1> Skills...</h1>
+        </div>
+        <div className="ProfessionalSkills">
+          <img src={design} alt="" />
+          {/* <BsCodeSlash className="ProfessionalIcon" /> */}
+          <h2> Frontend Web Developement</h2>
+          <p>I will developing Professional looking Frontend with React js Framework. </p>
+        </div>
+        <div className="ProfessionalSkills">
+          <img src={code} alt="" />
+          {/* <BsCodeSlash className="ProfessionalIcon" /> */}
+          <h2>Backend Web Development</h2>
+          <p>I will develop backend with Node js, ExpressJs and MongooDB</p>
+        </div>
+        <div className="ProfessionalSkills">
+          <img src={digital} alt="" />
+          <h2>Digital Marketing</h2>
+          <p>I will do Faebook ads, Google ads, media buying, Paid marketing</p>
+        </div>
+        <div className="ProfessionalSkills">
+          <img src={seo} alt="" />
+          <h2>SEO</h2>
+          <p>I will do on page SEO for all kind of website to rank top your website</p>
+        </div>
+      </div>
       <div className="section__container">
         <div className="section__content">
           <div className="section__img">
-              <img src={man2} alt="" />
+            <img src={man2} alt="" />
           </div>
         </div>
         <div className="section__content">
@@ -16,17 +56,24 @@ const Section = () => {
           <div className="exp-details">
             <h4>Web Developer & SEO Specialist</h4>
             <h5>Contracted by: DOM-INNO Group</h5>
-            <span> Start date: August 2021 to Running{" "}</span>
+            <span> Start date: August 2021 to Running </span>
           </div>
           <div className="exp-details">
             <h4>Wordpress Developer & Digital Marketer</h4>
-            <h5>Contracted by: Demo Group <br/> Khetkhamar.org & Ezelo.com.bd</h5>
-            <span> Start date: January 2020 and completion date: July 2021{" "}</span>
+            <h5>
+              Contracted by: Demo Group <br /> Khetkhamar.org & Ezelo.com.bd
+            </h5>
+            <span>
+              {" "}
+              Start date: January 2020 and completion date: July 2021{" "}
+            </span>
           </div>
           <div className="exp-details">
             <h4>IT - Executive</h4>
             <h5>Contracted by: Unicorn Far East Limited</h5>
-            <span>Start date: January 2018 and completion date: December 2019.</span>
+            <span>
+              Start date: January 2018 and completion date: December 2019.
+            </span>
           </div>
         </div>
 

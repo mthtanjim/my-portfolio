@@ -12,7 +12,9 @@ import React, { useRef, useState } from "react";
 import "./styles/Main.scss";
 import tanjim from "./assets/Md-Tanjimul-Hasan-Tanjim.jpg";
 import cv from "./assets/cv.pdf"
-import { Link } from "react-router-dom";
+// import { Link } from "react-scroll";
+import { HashLink as Link } from 'react-router-hash-link'
+import { HashLink } from 'react-router-hash-link';
 
 const Main = () => {
     const ref = useRef(null)
@@ -44,6 +46,13 @@ const Main = () => {
               >
                 <Facebook className="icon" />
               </a>
+              {/* <a
+                href="https://instagram.com/mthtanjim"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Instagram className="icon" />
+              </a> */}
               <a
                 href="https://github.com/mthtanjim"
                 target="_blank"
@@ -63,7 +72,9 @@ const Main = () => {
                   >
                       <button>Downlaod CV</button>
             </a>
-              <button onClick={handleClick} >About me</button>
+
+            <Link to="#Section" spy={true} smooth={true} > <button onClick={handleClick} >About me</button></Link>
+             
             </div>
           </div>
         </div>
@@ -72,6 +83,10 @@ const Main = () => {
           <img src={tanjim} alt="" />
         </div>
       </div>
+            {/* scroll down */}
+              <div className="arrows"></div>
+              {/* scroll down */}
+
     </div>
   );
 };

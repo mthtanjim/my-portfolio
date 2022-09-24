@@ -10,10 +10,12 @@ import { getAnalytics } from "firebase/analytics";
 import Skills from './components/Skills';
 import Contact from './components/Contact'
 import Clients from './components/Clients';
+import {BrowserRouter} from 'react-router-dom'
 
 function App() {
   
   return (
+   
     <div className='App'>
       {/* <Header/> */}
       <Main/>

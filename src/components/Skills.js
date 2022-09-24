@@ -3,69 +3,72 @@ import "./styles/Skills.scss";
 
 const Skills = () => {
   return (
+
     <div className="skills">
-      <div className="skill__container">
-        <div className="skill__content">
-          <h1>Professional Skills</h1>
-          <div className="skill-details">
-            <h4>Web Development</h4>
-          </div>
-          <div className="skill-details">
-            <h4>Digital Marketing</h4>
-          </div>
-          <div className="skill-details">
-            <h4>E-commerce</h4>
-          </div>
-          <div className="skill-details">
-            <h4>SEO</h4>
-          </div>
-          <div className="skill-details">
-            <h4>Photography</h4>
-          </div>
-        </div>
-      </div>
-      <div className="skill__container">
-        <div className="skill__content">
-          <h1>Programming</h1>
-          <div className="skill-details">
-            <h4>C/C++</h4>
-          </div>
-          <div className="skill-details">
-            <h4>Java Script</h4>
-          </div>
-          <div className="skill-details">
-            <h4>ES6</h4>
-          </div>
-        </div>
-      </div>
-      <div className="skill__container">
-        <div className="skill__content">
-          <div>
-          <h1>Framework & Tools</h1>
-            <div className="skill-details">
+    <h1>Tools, Programming and Others</h1>
+ <div className="skills__container">
+     <div className="skillbox">
+      React js
+     </div>
+    
+     <div className="skillbox">
+   Node Js
+     </div>
+     <div className="skillbox">
+  Express Js
+     </div>
+     <div className="skillbox">
+    MongooDB
+     </div>
+     <div className="skillbox">
+    RestAPI
+     </div>
+     <div className="skillbox">
+    Firebase
+     </div>
+     <div className="skillbox">
+      Git & Github
+     </div>
+     <div className="skillbox">
+     Tailwindcss
+     </div>
+     <div className="skillbox">
+    Bootstrap
+     </div>
+     <div className="skillbox">
+    SCSS
+     </div>
+     <div className="skillbox">
+    C++
+     </div>
+ </div>
+</div>
+
+    //       <h1>Framework & Tools</h1>
+    //         <div className="skill-details">
            
-          <div className="tools">
-            <div>
-              <p>React Js</p>
-              <p>NodeJs</p>
-              <p>Express Js</p>
-              <p>MongooDB</p>
-              <p>Rest API</p>
-            </div>
-            <div>
-              <p>CSS3</p>
-              <p>Bootstrap </p>
-              <p>Tailwindcss</p>
-              <p>Material UI</p>
-              <p>Git & Git Hub</p>
-              <p>Firebase</p>
-            </div>
-          </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    //       <div className="tools">
+    //         <div>
+    //           <p>React Js</p>
+    //           <p>NodeJs</p>
+    //           <p>Express Js</p>
+    //           <p>MongooDB</p>
+    //           <p>Rest API</p>
+    //         </div>
+    //         <div>
+    //           <p>CSS3</p>
+    //           <p>Bootstrap </p>
+    //           <p>Tailwindcss</p>
+    //           <p>Material UI</p>
+    //           <p>Git & Git Hub</p>
+    //           <p>Firebase</p>
+    //         </div>
+    //       </div>
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
   )
 }
 
