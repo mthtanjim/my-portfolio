@@ -7,7 +7,7 @@ import Projects from './components/Projects';
 
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-import Skills from './components/Skills';
+import Tools from './components/Tools';
 import Contact from './components/Contact'
 import Clients from './components/Clients';
 import {BrowserRouter} from 'react-router-dom'
@@ -20,7 +20,7 @@ function App() {
       {/* <Header/> */}
       <Main/>
       <Section/>
-      <Skills/>
+      <Tools/>
       <Clients/>
       <Projects/>
       <Contact/>

@@ -84,7 +84,10 @@ const Main = () => {
         </div>
       </div>
             {/* scroll down */}
-              <div className="arrows"></div>
+                <Link onClick={handleClick} to="#Section" spy={true} smooth={true} >
+                <div className="arrows"></div>
+                </Link>
+              
               {/* scroll down */}
 
     </div>
@@ -92,11 +95,3 @@ const Main = () => {
 };
 
 export default Main;
-
-// <Link
-//                 to={{ pathname: "https://www.facebook.com/mthtanjim" }}
-//                 target="_blank"
-//               >
-//                 {" "}
-//                 <Facebook className="icon" />
-//               </Link> 

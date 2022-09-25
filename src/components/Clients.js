@@ -17,7 +17,6 @@ const Clients = () => {
           <div className="clientlogo">
             <img src={logo1} />
           </div>
-         
           <div className="clientlogo">
             <img src={logo3} />
           </div>

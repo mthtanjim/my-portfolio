@@ -1,5 +1,9 @@
-import { ArrowBack } from "@material-ui/icons";
 import React from "react";
+import { MdWifiCalling3, MdArrowRightAlt } from "react-icons/md";
+import { AiFillSkype, AiOutlineMail } from "react-icons/ai";
+import { BsWhatsapp } from "react-icons/bs";
+
+
 import {
   Link,
   Button,
@@ -38,8 +42,9 @@ const Contact = () => {
         <div className="contactinfo">
           <h3>Md Tanjimul Hasan (Tanjim)</h3>
           <span>Web Developer & Digital marketer</span>
-          <p>Email: mthtanjim@gmail.com</p>
-          <p>Phone: 01780692424</p>
+          <p><BsWhatsapp/> <MdWifiCalling3/> <AiFillSkype/>  01780692424</p>
+          <p> <AiOutlineMail/> mthtanjim@gmail.com</p>
+          
         </div>
         <div className="socials">
           <span>Get in Touch:</span>

@@ -20,7 +20,7 @@
   &::before {
     // clip-path: polygon(100% 33%, 0% 100%, 100% 100%);
     background-image: url('../assets/gif2.gif');
-    opacity: .2;
+    opacity: .3;
     width: 100%;
     height: 100%;
   }
@@ -295,7 +295,11 @@ $peakopacity:0.7;
 // Scrill down end
 
 
-
+@media (max-width: 736px) {
+  .arrows {
+    margin-top: -15px;
+  }
+}
 
 @media (max-width: 600px) {
   .main__content {

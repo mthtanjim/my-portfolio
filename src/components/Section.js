@@ -14,7 +14,7 @@ const Section = () => {
   return (
     <div className="section" id="Section">
       <div className="section_skills__container">
-        <div className="ProfessionalSkillshead">
+        <div className="ProfSkillsHead">
           <h4>
             {" "}
             <HiOutlineMinus className="icon" />
@@ -26,7 +26,10 @@ const Section = () => {
           <img src={design} alt="" />
           {/* <BsCodeSlash className="ProfessionalIcon" /> */}
           <h2> Frontend Web Developement</h2>
-          <p>I will developing Professional looking Frontend with React js Framework. </p>
+          <p>
+            I will developing Professional looking Frontend with React js
+            Framework.{" "}
+          </p>
         </div>
         <div className="ProfessionalSkills">
           <img src={code} alt="" />
@@ -42,42 +45,78 @@ const Section = () => {
         <div className="ProfessionalSkills">
           <img src={seo} alt="" />
           <h2>SEO</h2>
-          <p>I will do on page SEO for all kind of website to rank top your website</p>
+          <p>
+            I will do on page SEO for all kind of website to rank top your
+            website
+          </p>
         </div>
       </div>
+
+      {/* after professional skills */}
+      {/* after professional skills */}
+
       <div className="section__container">
-        <div className="section__content">
+        <div className="img_section_content">
           <div className="section__img">
             <img src={man2} alt="" />
           </div>
         </div>
         <div className="section__content">
           <h1>Employment History</h1>
-          <div className="exp-details">
-            <h4>Web Developer & SEO Specialist</h4>
-            <h5>Contracted by: DOM-INNO Group</h5>
-            <span> Start date: August 2021 to Running </span>
-          </div>
-          <div className="exp-details">
-            <h4>Wordpress Developer & Digital Marketer</h4>
-            <h5>
-              Contracted by: Demo Group <br /> Khetkhamar.org & Ezelo.com.bd
-            </h5>
-            <span>
-              {" "}
-              Start date: January 2020 and completion date: July 2021{" "}
-            </span>
-          </div>
-          <div className="exp-details">
-            <h4>IT - Executive</h4>
-            <h5>Contracted by: Unicorn Far East Limited</h5>
-            <span>
-              Start date: January 2018 and completion date: December 2019.
-            </span>
+          <div className="exp-box">
+            <div className="exp-details">
+              <h4>Web Developer & SEO Specialist</h4>
+              <h5>Contracted by: DOM-INNO Group</h5>
+              <span> Start date: August 2021 to Running </span>
+            </div>
+            <div className="exp-details">
+              <h4>Wordpress Developer & Digital Marketer</h4>
+              <h5>
+                Contracted by: DEMO Group <br /> Khetkhamar.org & Ezelo.com.bd
+              </h5>
+              <span>
+                {" "}
+                Start date: January 2020 and completion date: July 2021{" "}
+              </span>
+            </div>
+            <div className="exp-details">
+              <h4>IT - Executive</h4>
+              <h5>Contracted by: Unicorn Far East Limited</h5>
+              <span>
+                Start date: January 2018 and completion date: December 2019.
+              </span>
+            </div>
           </div>
         </div>
 
-        <div className="section__content">
+        <div className="focus_content">
+          <div className="focus-details">
+            <div className="focus-number">
+              5+
+            </div>
+            <p>Working Experience</p>
+          </div>
+          <div className="focus-details">
+            <div className="focus-number">
+              <span>15+</span>
+            </div>
+            <p>Completed Projects</p>
+          </div>
+          <div className="focus-details">
+            <div className="focus-number">
+              <span>8+</span>
+            </div>
+            <p>Worked Company</p>
+          </div>
+          <div className="focus-details">
+            <div className="focus-number">
+              <span>5+</span>
+            </div>
+            <p>Awareds</p>
+          </div>
+          </div>
+
+        {/* <div className="section__content">
           <div>
             <h1>Educations</h1>
             <div className="exp-details">
@@ -96,7 +135,7 @@ const Section = () => {
               <span>Passing Yers: 2013</span>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
