@@ -1,6 +1,23 @@
 import React from "react";
 import "./styles/Tools.scss";
 import node from "./assets/tools/node.png"
+import react from "./assets/tools/react.png"
+import bs from "./assets/tools/bs.png"
+import css from "./assets/tools/css.png"
+import express from "./assets/tools/express.png"
+import git from "./assets/tools/git.png"
+import js from "./assets/tools/js.png"
+import sass from "./assets/tools/sass.png"
+import mongoose from "./assets/tools/mongoose.png"
+import mongo from "./assets/tools/mongo.png"
+import api from "./assets/tools/api.png"
+import firebase from "./assets/tools/firebasepng.png"
+import heroku from "./assets/tools/herokupng.png"
+import es6 from "./assets/tools/es6.png"
+import netly from "./assets/tools/netly.png"
+import tailwind from "./assets/tools/tailwind.png"
+import ui from "./assets/tools/ui.png"
+import c from "./assets/tools/c.jpg"
 
 
 const Skills = () => {
@@ -12,23 +29,27 @@ const Skills = () => {
           <h2>Programming and Others...</h2>
         </div>
         <div className="skills__container">
-          <div className="skillbox">React js</div>
-          <div className="skillbox">NodeJs</div>
-          <div className="skillbox">Express Js</div>
-          <div className="skillbox">MongooDB</div>
-          <div className="skillbox">RestAPI</div>
-          <div className="skillbox">ES6</div>
-          <div className="skillbox">Firebase</div>
-          <div className="skillbox">Heroku</div>
-          <div className="skillbox">Netlify</div>
-          <div className="skillbox">Git & Github</div>
-          <div className="skillbox">Tailwindcss</div>
-          <div className="skillbox">Bootstrap</div>
-          <div className="skillbox">SCSS</div>
-          <div className="skillbox">Material UI</div>
-          <div className="skillbox">CSS</div>
-          
-          <div className="skillbox">C++</div>
+          <div className="skillbox">
+          <img src={react} alt="" />
+            React js
+            </div>
+          <div className="skillbox"> <img src={node} alt="" />NodeJs</div>
+          <div className="skillbox"><img src={express} alt="" />Express Js</div>  
+          <div className="skillbox"><img src={mongo} alt="" />MongooDB</div>
+          <div className="skillbox"><img src={mongoose} alt="" />Mongoose</div>
+          <div className="skillbox"><img src={api} alt="" />RestAPI</div>
+          <div className="skillbox"><img src={es6} alt="" />ES6</div>
+          <div className="skillbox"><img src={firebase} alt="" />Firebase</div>
+          <div className="skillbox"><img src={heroku} alt="" />Heroku</div>
+          <div className="skillbox"><img src={netly} alt="" />Netlify</div>
+          <div className="skillbox"><img src={git} alt="" />Git & Github</div>
+          <div className="skillbox"><img src={tailwind} alt="" />Tailwindcss</div>
+          <div className="skillbox"><img src={bs} alt="" />Bootstrap</div>
+          <div className="skillbox"><img src={sass} alt="" />SCSS</div>
+          <div className="skillbox"><img src={ui} alt="" />Material UI</div>
+          <div className="skillbox"><img src={css} alt="" />CSS</div>
+          <div className="skillbox"><img src={c} alt="" />C</div>
+          <div className="skillbox"><img src={js} alt="" />JavaScript</div>
         </div>
       </div>
       <div className="edu_course_container">
