@@ -1,11 +1,10 @@
-
 .skills {
   color: rgb(194, 194, 194);
   display: flex;
-  
+  flex-direction: column;
   width: 100%;
   padding: 5%;
-  min-height: 40vh;
+  min-height: 90vh;
   background: #0f0c29; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -16,13 +15,52 @@
   background: linear-gradient(
     to right,
     #191825,
-    #131E2E,
-    #191825,
+    #131e2e,
+    #191825
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   //background: linear-gradient(60deg, #191825 0%, #2c274f 100%);
 
   overflow: hidden;
+  .edu_course_container {
+    padding-top: 8%;
+    padding-left: 7%;
+    padding-right: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    h1 {
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.335);
+    }
+    .course__content {
+      h1 {
+        margin-bottom: 1.5rem;
+      }
+      .edu-details {
+        line-height: 1.2rem;
+        margin-bottom: 1rem;
+        padding-right: 2rem;
+        h4::before {
+          content: "";
+          margin-left: -1.5rem;
+          margin-right: 10px;
 
+          display: inline-block;
+          width: 15px;
+          height: 15px;
+          -moz-border-radius: 7.5px;
+          -webkit-border-radius: 7.5px;
+          border: 3px solid #4f740b;
+          border-radius: 50%;
+
+          background-color: #19182a08;
+        }
+      }
+    }
+    .education__content {
+    }
+  }
+  // --------tools sectin start-----
 
   .toolsHead {
     padding-top: 2rem;
@@ -42,8 +80,6 @@
 }
 
 .skills__container {
-
-  
   padding-top: 2rem;
   padding-bottom: 0px;
   display: flex;
@@ -56,6 +92,7 @@
     text-align: center;
     line-height: 75px;
     display: flex;
+    flex-direction: column;
     font-size: 17px;
     background: rgba(74, 29, 84, 0.196);
     box-shadow: 2px 2px 10px 2px rgba(5, 93, 255, 0.213);
@@ -73,27 +110,42 @@
     transform: scale(1.1);
     transition-duration: 1s;
   }
-
 }
 
- @media (max-width: 1100px) {
-  
+@media (max-width: 1100px) {
+}
+@media (max-width: 1000px) {
+  .edu_course_container {
+    padding-top: 6%;
+    padding-left: 2%;
+    padding-right: 2%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    .course__content {
+      margin-bottom: 1.5rem;
+      .edu-details {
+        margin-bottom: 0rem;
+      }
+    }
+    .education__content {
+    }
+  }
 }
 
 @media (max-width: 735px) {
+  .edu_course_container {
+  }
   .skills {
     flex-direction: column;
     .toolsHead {
       width: 100%;
-    } 
+    }
   }
- 
 }
 
 @media (max-width: 335px) {
   .clients {
-    padding-bottom: .5rem;
+    padding-bottom: 0.5rem;
   }
-  
-
 }

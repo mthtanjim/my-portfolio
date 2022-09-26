@@ -1,12 +1,11 @@
 import React from "react";
-import react from "./assets/react.jpg";
+import react from "./assets/projectdemo.jpg";
 import leonf from "./assets/leonf.png";
 import admin from "./assets/admin.png";
 import dominno from "./assets/dominno.png";
 import pp from "./assets/pp.png";
 import bim from "./assets/bim.png";
 import "./styles/Works.scss";
-import ProjectsCard from "./ProjectsCard";
 import projects from "./assets/data";
 import { Link } from "react-router-dom";
 
@@ -68,7 +67,11 @@ const Projects = () => {
           </div>
           <div className="cards">
             <img src={pp} alt="" />
-            <a href="https://github.com/mthtanjim/my-portfolio" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/mthtanjim/my-portfolio"
+              target="_blank"
+              rel="noreferrer"
+            >
               Visit Github
             </a>
             <h4>React Portfolio Website</h4>

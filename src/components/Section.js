@@ -61,7 +61,7 @@ const Section = () => {
             <img src={man2} alt="" />
           </div>
         </div>
-        <div className="section__content">
+        <div className="job_section_content">
           <h1>Employment History</h1>
           <div className="exp-box">
             <div className="exp-details">
@@ -112,8 +112,9 @@ const Section = () => {
             <div className="focus-number">
               <span>5+</span>
             </div>
-            <p>Awareds</p>
+            <p>Awareds Receved</p>
           </div>
+         
           </div>
 
         {/* <div className="section__content">
@@ -136,6 +137,7 @@ const Section = () => {
             </div>
           </div>
         </div> */}
+
       </div>
     </div>
   );
