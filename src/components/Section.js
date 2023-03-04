@@ -1,13 +1,10 @@
 import React from "react";
-import "./styles/Section.scss";
-import man2 from "./assets/mthtanjim.jpg";
-import { BsCodeSlash } from "react-icons/bs";
 import { HiOutlineMinus } from "react-icons/hi";
-import { MdOutlineCampaign } from "react-icons/md";
-import { SiGooglesearchconsole } from "react-icons/si";
-import design from "./assets/responsive-design.svg";
 import digital from "./assets/digital-marketing.svg";
+import man2 from "./assets/mthtanjim.jpg";
+import design from "./assets/responsive-design.svg";
 import seo from "./assets/seo.svg";
+import "./styles/Section.scss";
 
 import code from "./assets/code.svg";
 const Section = () => {
@@ -70,7 +67,7 @@ const Section = () => {
               <span> Start date: August 2021 to Running </span>
             </div>
             <div className="exp-details">
-              <h4>Wordpress Developer & Digital Marketer</h4>
+              <h4>Web Developer & Digital Marketer</h4>
               <h5>
                 Contracted by: DEMO Group <br /> Khetkhamar.org & Ezelo.com.bd
               </h5>

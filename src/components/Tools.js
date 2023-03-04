@@ -1,24 +1,27 @@
 import React from "react";
-import "./styles/Tools.scss";
-import node from "./assets/tools/node.png"
-import react from "./assets/tools/react.png"
-import bs from "./assets/tools/bs.png"
-import css from "./assets/tools/css.png"
-import express from "./assets/tools/express.png"
-import git from "./assets/tools/git.png"
-import js from "./assets/tools/js.png"
-import sass from "./assets/tools/sass.png"
-import mongoose from "./assets/tools/mongoose.png"
-import mongo from "./assets/tools/mongo.png"
-import api from "./assets/tools/api.png"
-import firebase from "./assets/tools/firebasepng.png"
-import heroku from "./assets/tools/herokupng.png"
-import es6 from "./assets/tools/es6.png"
-import netly from "./assets/tools/netly.png"
-import tailwind from "./assets/tools/tailwind.png"
-import ui from "./assets/tools/ui.png"
-import c from "./assets/tools/c.jpg"
+import toolsData from "./assets/tools/Tools.json";
 
+import api from "./assets/tools/api.png";
+import bs from "./assets/tools/bs.png";
+import c from "./assets/tools/c.jpg";
+import css from "./assets/tools/css.png";
+import es6 from "./assets/tools/es6.png";
+import express from "./assets/tools/express.png";
+import firebase from "./assets/tools/firebasepng.png";
+import git from "./assets/tools/git.png";
+import heroku from "./assets/tools/herokupng.png";
+import js from "./assets/tools/js.png";
+import mongo from "./assets/tools/mongo.png";
+import mongoose from "./assets/tools/mongoose.png";
+import netly from "./assets/tools/netly.png";
+import nextjs from "./assets/tools/nextjs.png";
+import node from "./assets/tools/node.png";
+import react from "./assets/tools/react.png";
+import sass from "./assets/tools/sass.png";
+import tailwind from "./assets/tools/tailwind.png";
+import ui from "./assets/tools/ui.png";
+
+import "./styles/Tools.scss";
 
 const Skills = () => {
   return (
@@ -29,10 +32,12 @@ const Skills = () => {
           <h2>Programming and Others...</h2>
         </div>
         <div className="skills__container">
-          <div className="skillbox">
-          <img src={react} alt="" />
-            React js
-            </div>
+          {toolsData.map((d) => {
+        <div key={d.id} className="skillbox">
+        <img className="imghover" src={react} alt="" /> {d.name}
+        </div>
+          })}   
+          <div className="skillbox"><img src={nextjs} alt="" /> Next js</div>
           <div className="skillbox"> <img src={node} alt="" />NodeJs</div>
           <div className="skillbox"><img src={express} alt="" />Express Js</div>  
           <div className="skillbox"><img src={mongo} alt="" />MongooDB</div>
@@ -56,8 +61,11 @@ const Skills = () => {
         <div className="course__content">
           <h1>Course & Certifications</h1>
           <div className="edu-details">
+            <h4>MERN Stack E-Commerce with over 100 how-to solutions</h4>
+            <span>UDEMY</span>
+          </div>
+          <div className="edu-details">
             <h4>Digital Marketing </h4>
-           
             <span>Google Digital Unlock</span>
             <h5>Certificate Id: [MQW N8V 6A7]</h5>
           </div>
@@ -89,7 +97,7 @@ const Skills = () => {
             <div className="edu-details">
               <h4>B.Sc. in Computer Science & Engineering (CSE) </h4>
               <span>South East University</span>
-              <h5>(2019 - 2022)</h5>
+              <h5>(2019 - 2023)</h5>
             </div>
             <div className="edu-details">
               <h4>Diploma in Engineering in Computer Technology (4 years) </h4>
