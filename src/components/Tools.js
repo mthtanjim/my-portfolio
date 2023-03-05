@@ -1,5 +1,4 @@
 import React from "react";
-import toolsData from "./assets/tools/Tools.json";
 
 import api from "./assets/tools/api.png";
 import bs from "./assets/tools/bs.png";
@@ -19,11 +18,14 @@ import node from "./assets/tools/node.png";
 import react from "./assets/tools/react.png";
 import sass from "./assets/tools/sass.png";
 import tailwind from "./assets/tools/tailwind.png";
+import ToolsData from "./assets/Tools";
 import ui from "./assets/tools/ui.png";
 
 import "./styles/Tools.scss";
 
 const Skills = () => {
+  console.log("tools data", ToolsData);
+  console.log("uiii", ui);
   return (
     <div className="skills">
       <div>
@@ -32,29 +34,16 @@ const Skills = () => {
           <h2>Programming and Others...</h2>
         </div>
         <div className="skills__container">
-          {toolsData.map((d) => {
-        <div key={d.id} className="skillbox">
-        <img className="imghover" src={react} alt="" /> {d.name}
-        </div>
-          })}   
-          <div className="skillbox"><img src={nextjs} alt="" /> Next js</div>
-          <div className="skillbox"> <img src={node} alt="" />NodeJs</div>
-          <div className="skillbox"><img src={express} alt="" />Express Js</div>  
-          <div className="skillbox"><img src={mongo} alt="" />MongooDB</div>
-          <div className="skillbox"><img src={mongoose} alt="" />Mongoose</div>
-          <div className="skillbox"><img src={api} alt="" />RestAPI</div>
-          <div className="skillbox"><img src={es6} alt="" />ES6</div>
-          <div className="skillbox"><img src={firebase} alt="" />Firebase</div>
-          <div className="skillbox"><img src={heroku} alt="" />Heroku</div>
-          <div className="skillbox"><img src={netly} alt="" />Netlify</div>
-          <div className="skillbox"><img src={git} alt="" />Git & Github</div>
-          <div className="skillbox"><img src={tailwind} alt="" />Tailwindcss</div>
-          <div className="skillbox"><img src={bs} alt="" />Bootstrap</div>
-          <div className="skillbox"><img src={sass} alt="" />SCSS</div>
-          <div className="skillbox"><img src={ui} alt="" />Material UI</div>
-          <div className="skillbox"><img src={css} alt="" />CSS</div>
-          <div className="skillbox"><img src={c} alt="" />C</div>
-          <div className="skillbox"><img src={js} alt="" />JavaScript</div>
+          {ToolsData.map((d) => (
+            <div key={d.id} className="skillbox">
+              <img
+                className="imghover"
+                src={d.img}
+                alt={d.name}
+              />{" "}
+              {d.name}
+            </div>
+          ))}
         </div>
       </div>
       <div className="edu_course_container">
@@ -71,7 +60,7 @@ const Skills = () => {
           </div>
           <div className="edu-details">
             <h4>Web development (HTML, CSS, JS)</h4>
-           
+
             <span>EDUCBA</span>
             <h5>[Id: Q9YZC8YA7]</h5>
           </div>
@@ -90,7 +79,7 @@ const Skills = () => {
             <span>Master of Project Academy</span>
             <h5>[Id: cert_mwz9y0pk]</h5>
           </div>
-          </div>
+        </div>
         <div className="course__content">
           <div>
             <h1>Educations</h1>

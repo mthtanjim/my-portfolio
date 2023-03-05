@@ -4,6 +4,7 @@ import leonf from "./assets/leonf.png";
 import admin from "./assets/admin.png";
 import dominno from "./assets/dominno.png";
 import pp from "./assets/pp.png";
+import rnext from "./assets/projects/realestatenextjs.jpg";
 import bim from "./assets/bim.png";
 import "./styles/Works.scss";
 import projects from "./assets/data";
@@ -78,6 +79,21 @@ const Projects = () => {
             <div>
               <span>React js</span>
               <span>SCSS</span>
+            </div>
+          </div>
+          <div className="cards">
+            <img src={rnext} alt="" />
+            <a
+              href="https://realestatebd23.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View live site
+            </a>
+            <h4>NextJs Real Esate</h4>
+            <div>
+              <span>Next js</span>
+              <span>Bootstrap</span>
             </div>
           </div>
           <div className="cards">

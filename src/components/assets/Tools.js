@@ -1,0 +1,104 @@
+const ToolsData =
+[
+  {
+    "id": 1, 
+    "img": require("./tools/react.png"),
+    "name": "React Js"
+  },
+  {
+    "id": 2,
+    "img": require("./tools/bs.png"),
+    "name": "Bootstrap"
+  },
+  {
+    "id": 3,
+    "img": require("./tools/c.jpg"),
+    "name": "C"
+  },
+  {
+    "id": 4,
+    "img": require("./tools/css.png"),
+    "name": "CSS"
+  },
+  {
+    "id": 5,
+    "img": require("./tools/express.png"),
+    "name": "Express Js"
+  },
+  {
+    "id": 6,
+    "img": require("./tools/firebasepng.png"),
+    "name": "Firebase"
+  },
+  {
+    "id": 7,
+    "img":require("./tools/git.png"),
+    "name": "Git & Github"
+  },
+  {
+    "id": 8,
+    "img": require("./tools/herokupng.png"),
+    "name": "Heroku"
+  },
+  {
+    "id": 9,
+    "img": require("./tools/js.png"),
+    "name": "Java Script"
+  },
+  {
+    "id": 10,
+    "img": require("./tools/mongo.png"),
+    "name": "React Js"
+  },
+  {
+    "id": 11,
+    "img": require("./tools/mongoose.png"),
+    "name": "Mongoose"
+  },
+  {
+    "id": 12,
+    "img": require("./tools/netly.png"),
+    "name": "Netlify"
+  },
+  {
+    "id": 13,
+    "img": require("./tools/nextjs.png"),
+    "name": "Next js"
+  },
+  {
+    "id": 15,
+    "img": require("./tools/sass.png"),
+    "name": "SASS"
+  }, {
+    "id": 16,
+    "img": require("./tools/tailwind.png"),
+    "name": "Tailwind"
+  },
+  {
+    "id": 18,
+    "img": require("./tools/ui.png"),
+    "name": "React Js"
+  },
+  {
+    "id": 19,
+    "img": require("./tools/es6.png"),
+    "name": "ES6"
+  },
+  {
+    "id": 19,
+    "img": require("./tools/ui.png"),
+    "name": "Material UI"
+  },
+  {
+    "id": 19,
+    "img": require("./tools/sass.png"),
+    "name": "SASS"
+  },
+  {
+    "id": 19,
+    "img": require("./tools/c.jpg"),
+    "name": "C"
+  },
+]
+
+export default ToolsData
