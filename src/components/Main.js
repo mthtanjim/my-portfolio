@@ -1,20 +1,13 @@
-import {
-  Facebook,
-  Instagram,
-  LinkedIn,
-  MenuBook,
-  Pinterest,
-  SettingsPowerRounded,
-  Twitter,
-  GitHub,
-} from "@material-ui/icons";
+import { Facebook, GitHub, Instagram, LinkedIn, MenuBook, Pinterest, SettingsPowerRounded, Twitter } from "@material-ui/icons";
 import React, { useRef, useState } from "react";
-import "./styles/Main.scss";
-import tanjim from "./assets/Md-Tanjimul-Hasan-Tanjim.jpg";
-import cv from "./assets/cv.pdf"
-// import { Link } from "react-scroll";
+// import { HashLink as Link } from "react-scroll";
 import { HashLink as Link } from 'react-router-hash-link'
 import { HashLink } from 'react-router-hash-link';
+
+import cv from "./assets/cv.pdf"
+import tanjim from "./assets/Md-Tanjimul-Hasan-Tanjim.jpg";
+
+import "./styles/Main.scss";
 
 const Main = () => {
     const ref = useRef(null)
@@ -30,7 +23,8 @@ const Main = () => {
             <p>Hey There !</p>
             
             <h1>I am Tanjim</h1>
-            <p>Web Developer & Digital Marketer</p>
+            <p>Full Stack Web Developer</p>
+            <p style={{lineHeight: "25px"}} >& SEO Expert</p>
             <div className="icons">
               <a
                 href="https://www.linkedin.com/in/mthtanjim/"

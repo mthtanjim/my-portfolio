@@ -1,12 +1,14 @@
 import React from "react";
 import { HiOutlineMinus } from "react-icons/hi";
+
+import code from "./assets/code.svg";
 import digital from "./assets/digital-marketing.svg";
 import man2 from "./assets/mthtanjim.jpg";
 import design from "./assets/responsive-design.svg";
 import seo from "./assets/seo.svg";
+
 import "./styles/Section.scss";
 
-import code from "./assets/code.svg";
 const Section = () => {
   return (
     <div className="section" id="Section">
@@ -62,9 +64,14 @@ const Section = () => {
           <h1>Employment History</h1>
           <div className="exp-box">
             <div className="exp-details">
-              <h4>Web Developer & SEO Specialist</h4>
+              <h4>Full Stack Developer</h4>
+              <h5>Contracted by: Navana Group</h5>
+              <span> Start date: July 2023 to Running </span>
+            </div>
+            <div className="exp-details">
+              <h4>Full Stack Web Developer</h4>
               <h5>Contracted by: DOM-INNO Group</h5>
-              <span> Start date: August 2021 to Running </span>
+              <span> Start date: August 2021 and completion date: July 2023 </span>
             </div>
             <div className="exp-details">
               <h4>Web Developer & Digital Marketer</h4>
@@ -85,13 +92,12 @@ const Section = () => {
             </div>
           </div>
         </div>
-
         <div className="focus_content">
           <div className="focus-details">
             <div className="focus-number">
-              5+
+              5+ 
             </div>
-            <p>Working Experience</p>
+            <p>Yr Working Experience</p>
           </div>
           <div className="focus-details">
             <div className="focus-number">
@@ -101,7 +107,7 @@ const Section = () => {
           </div>
           <div className="focus-details">
             <div className="focus-number">
-              <span>8+</span>
+              <span>14+</span>
             </div>
             <p>Worked Company</p>
           </div>
@@ -109,9 +115,8 @@ const Section = () => {
             <div className="focus-number">
               <span>5+</span>
             </div>
-            <p>Awareds Receved</p>
+            <p>Rewarded</p>
           </div>
-         
           </div>
 
         {/* <div className="section__content">
