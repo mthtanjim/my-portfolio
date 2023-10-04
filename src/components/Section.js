@@ -66,12 +66,12 @@ const Section = () => {
             <div className="exp-details">
               <h4>Full Stack Developer</h4>
               <h5>Contracted by: Navana Group</h5>
-              <span> Start date: July 2023 to Running </span>
+              <span> Start date: April 2023 to Running </span>
             </div>
             <div className="exp-details">
               <h4>Full Stack Web Developer</h4>
               <h5>Contracted by: DOM-INNO Group</h5>
-              <span> Start date: August 2021 and completion date: July 2023 </span>
+              <span> Start date: August 2021 and completion date: April 2023 </span>
             </div>
             <div className="exp-details">
               <h4>Web Developer & Digital Marketer</h4>

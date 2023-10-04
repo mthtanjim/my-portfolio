@@ -1,5 +1,7 @@
 import React from "react";
-import "./styles/Clients.scss";
+
+import logo01 from "./assets/clients/logo01.png"
+import logo03 from "./assets/clients/logo03.png"
 import logo1 from "./assets/clients/logo1.png"
 import logo2 from "./assets/clients/logo2.png"
 import logo3 from "./assets/clients/logo3.png"
@@ -9,11 +11,19 @@ import logo6 from "./assets/clients/logo6.png"
 import logo7 from "./assets/clients/logo7.png"
 import logo8 from "./assets/clients/logo8.png"
 
+import "./styles/Clients.scss";
+
 const Clients = () => {
   return (
     <div className="clients">
          <h1>Worked With</h1>
       <div className="clients__container">
+          <div className="clientlogo">
+            <img src={logo01} />
+          </div>
+          <div className="clientlogo">
+            <img src={logo03} />
+          </div>
           <div className="clientlogo">
             <img src={logo1} />
           </div>
