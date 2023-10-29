@@ -24,30 +24,42 @@ const Section = () => {
         <div className="ProfessionalSkills">
           <img src={design} alt="" />
           {/* <BsCodeSlash className="ProfessionalIcon" /> */}
-          <h2> Frontend Web Developement</h2>
+          <h2>Frontend Developement</h2>
           <p>
-            I will developing Professional looking Frontend with React js
-            Framework.{" "}
+            I will developing frontend with React js, NextJs Framework.{" "}
           </p>
         </div>
         <div className="ProfessionalSkills">
           <img src={code} alt="" />
           {/* <BsCodeSlash className="ProfessionalIcon" /> */}
-          <h2>Backend Web Development</h2>
-          <p>I will develop backend with Node js, ExpressJs and MongooDB</p>
+          <h2>Backend Development</h2>
+          <p>I will develop backend with Node js</p>
         </div>
         <div className="ProfessionalSkills">
           <img src={digital} alt="" />
-          <h2>Digital Marketing</h2>
-          <p>I will do Faebook ads, Google ads, media buying, Paid marketing</p>
+          <h2>Web Applications</h2>
+          <p>I will develop any kind of web based applications</p>
+        </div>
+        <div className="ProfessionalSkills">
+          <img src={digital} alt="" />
+          <h2>E-commerce Application</h2>
+          <p>I will develop E-commerce app for your business</p>
+        </div>
+        <div className="ProfessionalSkills">
+          <img src={digital} alt="" />
+          <h2>Software as a Service (SaaS)</h2>
+          {/* <p>I will develop any kind of web based applications</p> */}
+        </div>
+        <div className="ProfessionalSkills">
+          <img src={digital} alt="" />
+          <h2>Business Website</h2>
+          <p>I will develop SEO friendly business Website</p>
         </div>
         <div className="ProfessionalSkills">
           <img src={seo} alt="" />
           <h2>SEO</h2>
           <p>
-            I will do on page SEO for all kind of website to rank top your
-            website
-          </p>
+            I will do on page SEO for all kind of website</p>
         </div>
       </div>
 
@@ -69,7 +81,7 @@ const Section = () => {
               <span> Start date: April 2023 to Running </span>
             </div>
             <div className="exp-details">
-              <h4>Full Stack Web Developer</h4>
+              <h4>Web Application Developer</h4>
               <h5>Contracted by: DOM-INNO Group</h5>
               <span> Start date: August 2021 and completion date: April 2023 </span>
             </div>
@@ -92,33 +104,6 @@ const Section = () => {
             </div>
           </div>
         </div>
-        <div className="focus_content">
-          <div className="focus-details">
-            <div className="focus-number">
-              5+ 
-            </div>
-            <p>Yr Working Experience</p>
-          </div>
-          <div className="focus-details">
-            <div className="focus-number">
-              <span>15+</span>
-            </div>
-            <p>Completed Projects</p>
-          </div>
-          <div className="focus-details">
-            <div className="focus-number">
-              <span>14+</span>
-            </div>
-            <p>Worked Company</p>
-          </div>
-          <div className="focus-details">
-            <div className="focus-number">
-              <span>5+</span>
-            </div>
-            <p>Rewarded</p>
-          </div>
-          </div>
-
         {/* <div className="section__content">
           <div>
             <h1>Educations</h1>

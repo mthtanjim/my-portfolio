@@ -23,7 +23,7 @@ const Main = () => {
             
             <h1>I am Tanjim</h1>
             <p>Full Stack Software Developer</p>
-            <p style={{lineHeight: "25px"}} >& SEO Expert</p>
+            {/* <p style={{lineHeight: "25px"}} >& SEO Expert</p> */}
             <div className="icons">
               <a
                 href="https://www.linkedin.com/in/mthtanjim/"

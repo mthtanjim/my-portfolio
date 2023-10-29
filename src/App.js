@@ -12,6 +12,7 @@ import Section from './components/Section'
 import Tools from './components/Tools';
 
 import './App.scss';
+import Strength from "./components/Strength";
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
     <div className='App'>
       {/* <Header/> */}
       <Main/>
+      <Strength/>
       <Section/>
       <Tools/>
       <Clients/>
