@@ -41,7 +41,7 @@ const Contact = () => {
       <div className="info">
         <div className="contactinfo">
           <h3>Md Tanjimul Hasan (Tanjim)</h3>
-          <span>Web Developer & Digital marketer</span>
+          <span>Full Stack Software Developer</span>
           <p><BsWhatsapp/> <MdWifiCalling3/> <AiFillSkype/>  01780692424</p>
           <p> <AiOutlineMail/> mthtanjim@gmail.com</p>
           

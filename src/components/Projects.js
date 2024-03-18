@@ -1,137 +1,35 @@
 import React from "react";
-import react from "./assets/projectdemo.jpg";
-import leonf from "./assets/leonf.png";
-import admin from "./assets/admin.png";
-import dominno from "./assets/dominno.png";
-import pp from "./assets/pp.png";
-import rnext from "./assets/projects/realestatenextjs.jpg";
-import bim from "./assets/bim.png";
 import "./styles/Works.scss";
-import projects from "./assets/data";
+import projectsData from "./assets/data";
 import { Link } from "react-router-dom";
+import react from "./assets/projectdemo.jpg";
 
 const Projects = () => {
+  console.log("projects::", projectsData);
+  console.log("react::", react);
+
   return (
     <div className="projects">
       <h1>Projects</h1>
       <div className="works">
         <div className="work__section">
-          <div className="cards">
-            <img src={leonf} alt="" />
-
-            <a href="https://leonbd.com" target="_blank" rel="noreferrer">
-              See Live Projects
-            </a>
-
-            <h4>Pharmaciticals Industries</h4>
-            <div>
-              <span>Reactjs</span>
-              <span>Metairal UI</span>
-              <span>SCSS</span>
-              <span>Firebase</span>
-            </div>
-          </div>
-          <div className="cards">
-            <img src={react} alt="" />
-            {/* <a
-                href="https://leonbd.com"
-                target="_blank"
-                rel="noreferrer"
-                >
+          {projectsData.map(project => (
+            <div className="cards" key={project.id}>
+              <div className="imgBox">
+                <img src={project.imgSrc} alt="" />
+              </div>
+              {project.liveLink && <a href={project.liveLink} target="_blank" rel="noreferrer">
                 See Live Projects
-            </a> */}
-            <h4>Backend Admin Dashboard</h4>
-            <div>
-              <span>Nodejs</span>
-              <span>Express JS</span>
-              <span>Mongoodb</span>
-              <span>Rest API</span>
+              </a>
+              }
+              <h4>{project.title}</h4>
+              <div>
+                {project.techStack.map(tech => (
+                  <span key={tech}>{tech}</span>
+                ))}
+              </div>
             </div>
-          </div>
-          <div className="cards">
-            <img src={admin} alt="" />
-            <h4>Admin Dashboard Frontend</h4>
-            <div>
-              <span>React js</span>
-              <span>Material UI</span>
-              <span>Firebase</span>
-            </div>
-          </div>
-          <div className="cards">
-            <img src={react} alt="" />
-            <h4>Consumer Products Manufacturer Industries</h4>
-            <div>
-              <span>React js</span>
-              <span>Material UI</span>
-              <span>Firebase</span>
-            </div>
-          </div>
-          <div className="cards">
-            <img src={pp} alt="" />
-            <a
-              href="https://github.com/mthtanjim/my-portfolio"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Visit Github
-            </a>
-            <h4>React Portfolio Website</h4>
-            <div>
-              <span>React js</span>
-              <span>SCSS</span>
-            </div>
-          </div>
-          <div className="cards">
-            <img src={rnext} alt="" />
-            <a
-              href="https://realestatebd23.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              View live site
-            </a>
-            <h4>NextJs Real Esate</h4>
-            <div>
-              <span>Next js</span>
-              <span>Bootstrap</span>
-            </div>
-          </div>
-          <div className="cards">
-            <img src={dominno} alt="" />
-            <a href="https://dominno-bd.com" target="_blank" rel="noreferrer">
-              See Live Projects
-            </a>
-            <h4>Real Estate Website</h4>
-            <div>
-              <span>Wordpress</span>
-              <span>Custom CSS</span>
-              <span>Custom JS</span>
-            </div>
-          </div>
-          <div className="cards">
-            <img src={bim} alt="" />
-            <a href="profilelimited.com" target="_blank" rel="noreferrer">
-              See Live Project
-            </a>
-            <h4>Architectural Company</h4>
-            <div>
-              <span>Wordpress</span>
-              <span>Custom CSS</span>
-              <span>Custom JS</span>
-            </div>
-          </div>
-          <div className="cards">
-            <img src={react} alt="" />
-            <a href="https://bimenvision.com/" target="_blank" rel="noreferrer">
-              See Live Project
-            </a>
-            <h4>Architectural Company</h4>
-            <div>
-              <span>Wordpress</span>
-              <span>Custom CSS</span>
-              <span>Custom JS</span>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </div>
