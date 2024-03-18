@@ -36,11 +36,11 @@ const Strength = () => {
   }, []);
 
   useEffect(() => {
-    countdown(20, setCountProjects);
+    countdown(25, setCountProjects);
   }, []);
 
   useEffect(() => {
-    countdown(15, setCountCompanies);
+    countdown(18, setCountCompanies);
   }, []);
 
   useEffect(() => {

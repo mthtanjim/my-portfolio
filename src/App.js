@@ -1,5 +1,3 @@
-import { getAnalytics } from "firebase/analytics";
-import { initializeApp } from "firebase/app";
 import React,{ useState } from 'react';
 import { BrowserRouter } from 'react-router-dom'
 

@@ -10,7 +10,7 @@ const Projects = () => {
 
   return (
     <div className="projects">
-      <h1>Projects</h1>
+      <h1>Recent Projects</h1>
       <div className="works">
         <div className="work__section">
           {projectsData.map(project => (
