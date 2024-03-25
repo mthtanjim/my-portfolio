@@ -30,7 +30,7 @@ const Skills = () => {
     <div className="skills">
       <div>
         <div className="toolsHead">
-          <h1>___ Tools</h1>
+          <h1>___ Technical Skills</h1>
           <h2>Programming and Others...</h2>
         </div>
         <div className="skills__container">

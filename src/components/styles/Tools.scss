@@ -106,14 +106,15 @@
     margin: 15px 10px 10px 10px;
     border: 1px solid rgba(106, 87, 150, 0.178);
     img {
-      
+      object-fit: cover;
       width: 65px;
      height: 50px;
     }
   }
-  .imghover:hover {
-    transform: scale(1.3);
-    transition-duration: 1s;
+  .skillbox:hover {
+    background: #461faabe;
+    border: 1px solid rgba(255, 255, 255, 0.308);
+    transition-duration: 0.3s;
   }
 }
 

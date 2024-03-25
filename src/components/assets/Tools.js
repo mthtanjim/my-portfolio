@@ -6,25 +6,37 @@ const ToolsData =
     "name": "React Js"
   },
   {
-    "id": 2,
-    "img": require("./tools/bs.png"),
-    "name": "Bootstrap"
-  },
-  {
-    "id": 3,
-    "img": require("./tools/c.jpg"),
-    "name": "C"
-  },
-  {
-    "id": 4,
-    "img": require("./tools/css.png"),
-    "name": "CSS"
+    "id": 13,
+    "img": require("./tools/nextjs.png"),
+    "name": "Next js"
   },
   {
     "id": 5,
     "img": require("./tools/express.png"),
     "name": "Express Js"
   },
+
+  {
+    "id": 3,
+    "img": require("./tools/nest.png"),
+    "name": "NestJs"
+  },
+  {
+    "id": 10,
+    "img": require("./tools/mongo.png"),
+    "name": "MongoDB"
+  },
+  {
+    "id": 11,
+    "img": require("./tools/mysql.png"),
+    "name": "MySQL"
+  },
+  {
+    "id": 4,
+    "img": require("./tools/css.png"),
+    "name": "CSS"
+  },
+
   {
     "id": 6,
     "img": require("./tools/firebasepng.png"),
@@ -45,11 +57,7 @@ const ToolsData =
     "img": require("./tools/js.png"),
     "name": "Java Script"
   },
-  {
-    "id": 10,
-    "img": require("./tools/mongo.png"),
-    "name": "React Js"
-  },
+
   {
     "id": 11,
     "img": require("./tools/mongoose.png"),
@@ -60,24 +68,21 @@ const ToolsData =
     "img": require("./tools/netly.png"),
     "name": "Netlify"
   },
-  {
-    "id": 13,
-    "img": require("./tools/nextjs.png"),
-    "name": "Next js"
-  },
+
   {
     "id": 15,
     "img": require("./tools/sass.png"),
     "name": "SASS"
-  }, {
+  }, 
+  {
+    "id": 2,
+    "img": require("./tools/bs.png"),
+    "name": "Bootstrap"
+  },
+  {
     "id": 16,
     "img": require("./tools/tailwind.png"),
     "name": "Tailwind"
-  },
-  {
-    "id": 18,
-    "img": require("./tools/ui.png"),
-    "name": "React Js"
   },
   {
     "id": 19,
@@ -85,20 +90,16 @@ const ToolsData =
     "name": "ES6"
   },
   {
-    "id": 19,
+    "id": 20,
     "img": require("./tools/ui.png"),
     "name": "Material UI"
   },
   {
-    "id": 19,
+    "id": 21,
     "img": require("./tools/sass.png"),
     "name": "SASS"
-  },
-  {
-    "id": 19,
-    "img": require("./tools/c.jpg"),
-    "name": "C"
-  },
+  }
+  
 ]
 
 export default ToolsData

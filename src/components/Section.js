@@ -19,47 +19,51 @@ const Section = () => {
             <HiOutlineMinus className="icon" />
             Professional
           </h4>
-          <h1> Skills...</h1>
+          <h1>Skills...</h1>
         </div>
         <div className="ProfessionalSkills">
-          <img src={design} alt="" />
+          <img src={code} alt="" />
+          <h2>API Development for Software</h2>
+          <p>Build robust and scalable RESTful API for seamless communication between software systems and platforms.</p>
+        </div>
+        <div className="ProfessionalSkills">
+          <img src={code} alt="" />
           {/* <BsCodeSlash className="ProfessionalIcon" /> */}
-          <h2>Frontend Developement</h2>
-          <p>
-            I will developing frontend with React js, NextJs Framework.{" "}
-          </p>
+          <h2>Custom Application Development</h2>
+          <p>Create bespoke web applications for diverse client needs, including content management and CRM systems.</p>
         </div>
         <div className="ProfessionalSkills">
           <img src={code} alt="" />
           {/* <BsCodeSlash className="ProfessionalIcon" /> */}
           <h2>Backend Development</h2>
-          <p>I will develop backend with Node js</p>
+          <p>I excel in backend development using Node.js, Express js and NestJs</p>
         </div>
+
         <div className="ProfessionalSkills">
-          <img src={digital} alt="" />
-          <h2>Web Applications</h2>
-          <p>I will develop any kind of web based applications</p>
+          <img src={design} alt="" />
+          {/* <BsCodeSlash className="ProfessionalIcon" /> */}
+          <h2>Frontend Developement</h2>
+          <p>
+          I specialize in developing frontend using React.js and Next.js framework.
+          </p>
         </div>
+   
         <div className="ProfessionalSkills">
           <img src={digital} alt="" />
           <h2>E-commerce Application</h2>
-          <p>I will develop E-commerce app for your business</p>
+          <p>I specialize in developing E-commerce applications tailored to your business needs.</p>
         </div>
-        <div className="ProfessionalSkills">
-          <img src={digital} alt="" />
-          <h2>Software as a Service (SaaS)</h2>
-          {/* <p>I will develop any kind of web based applications</p> */}
-        </div>
+    
         <div className="ProfessionalSkills">
           <img src={digital} alt="" />
           <h2>Business Website</h2>
-          <p>I will develop SEO friendly business Website</p>
+          <p>I create SEO-friendly business websites designed to enhance your online presence.</p>
         </div>
+
         <div className="ProfessionalSkills">
           <img src={seo} alt="" />
-          <h2>SEO</h2>
-          <p>
-            I will do on page SEO for all kind of website</p>
+          <h2>Search Engine Optimization (SEO)</h2>
+          <p>Get expert on-page SEO services tailored to all types of websites.</p>
         </div>
       </div>
 
@@ -77,18 +81,18 @@ const Section = () => {
           <div className="exp-box">
             <div className="exp-details">
               <h4>Full Stack Developer</h4>
-              <h5>Contracted by: Navana Group</h5>
+              <h5>Contracted by: <span className="bold">NAVANA Group</span></h5>
               <span> Start date: April 2023 to Running </span>
             </div>
             <div className="exp-details">
-              <h4>Web Application Developer</h4>
-              <h5>Contracted by: DOM-INNO Group</h5>
+              <h4>Full Stack Developer</h4>
+              <h5>Contracted by: <span className="bold">DOM-INNO Group</span></h5>
               <span> Start date: August 2021 and completion date: April 2023 </span>
             </div>
             <div className="exp-details">
-              <h4>Web Developer & Digital Marketer</h4>
+              <h4>Web Developer</h4>
               <h5>
-                Contracted by: DEMO Group <br /> Khetkhamar.org & Ezelo.com.bd
+                Contracted by: <span className="bold">DEMO Group</span>  <br /> 
               </h5>
               <span>
                 {" "}
@@ -96,7 +100,7 @@ const Section = () => {
               </span>
             </div>
             <div className="exp-details">
-              <h4>IT - Executive</h4>
+              <h4>IT Support Engineer</h4>
               <h5>Contracted by: Unicorn Far East Limited</h5>
               <span>
                 Start date: January 2018 and completion date: December 2019.
