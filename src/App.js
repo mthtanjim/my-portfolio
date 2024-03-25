@@ -8,6 +8,7 @@ import Main from './components/Main'
 import Projects from './components/Projects';
 import Section from './components/Section'
 import Tools from './components/Tools';
+import ImgGallery from './components/ImgGallery';
 
 import './App.scss';
 import Strength from "./components/Strength";
@@ -23,6 +24,7 @@ function App() {
       <Tools/>
       <Clients/>
       <Projects/>
+      <ImgGallery/>
       <Contact/>
     </div>
   );
