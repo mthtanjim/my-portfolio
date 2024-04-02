@@ -85,14 +85,13 @@ const Main = () => {
     visible: { opacity: 1, y: 0, transition: { delay: 0.6, duration: 0.5 } },
   };
 
-
   return (
     <div className="main">
       <div className="main__container">
         <div className="main__content">
           <div className="text">
             <p>Hey There !</p>
-            <h1 >I am Tanjim</h1>
+            <h1 >I'm Tanjimul Hasan Tanjim</h1>
             {/* <motion.h1
         ref={containerRef}
         initial="hidden"
