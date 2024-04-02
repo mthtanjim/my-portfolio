@@ -36,11 +36,11 @@ const Strength = () => {
   }, []);
 
   useEffect(() => {
-    countdown(25, setCountProjects);
+    countdown(28, setCountProjects);
   }, []);
 
   useEffect(() => {
-    countdown(18, setCountCompanies);
+    countdown(17, setCountCompanies);
   }, []);
 
   useEffect(() => {
@@ -59,7 +59,7 @@ const Strength = () => {
         <div className="focus-number">
           <span>{countProjects}+</span>
         </div>
-        <p>Completed Projects</p>
+        <p>Projects Delivered</p>
       </div>
       <div className="focus-details">
         <div className="focus-number">

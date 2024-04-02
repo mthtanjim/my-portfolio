@@ -11,7 +11,7 @@ import bim from "./bim.png";
 const projectsData = [
     {
         id: 11,
-        title: "La Tarte",
+        title: "La Tarte (Bakeries)",
         imgSrc: react,
         liveLink: "https://www.latartebd.com",
         techStack: ["Next js", "Express JS"]
@@ -25,14 +25,14 @@ const projectsData = [
       },
     {
         id: 9,
-        title: "Gloria Jean's Cofees Bangladesh",
+        title: "Gloria Jean's Cofees Bangladesh (Ecommerce)",
         imgSrc: react,
         liveLink: "https://gloriajeanscoffeesbd.com/",
         techStack: ["React js", "Express JS"]
       },
     {
       id: 1,
-      title: "Pharmaceuticals Industries",
+      title: "Leon Pharma (Pharmaceuticals Industries)",
       imgSrc: leonf,
       liveLink: "https://leonbd.com",
       techStack: ["Reactjs", "Material UI", "SCSS", "Firebase"]

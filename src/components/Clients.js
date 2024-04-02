@@ -2,9 +2,10 @@ import React from "react";
 
 import logo01 from "./assets/clients/logo01.png"
 import logo03 from "./assets/clients/logo03.png"
+import latarte from "./assets/clients/latarte.png"
+import logo3 from "./assets/clients/logo3.png"
 import logo1 from "./assets/clients/logo1.png"
 import logo2 from "./assets/clients/logo2.png"
-import logo3 from "./assets/clients/logo3.png"
 import logo4 from "./assets/clients/logo4.png"
 import logo5 from "./assets/clients/logo5.png"
 import logo6 from "./assets/clients/logo6.png"
@@ -21,13 +22,15 @@ const Clients = () => {
       <div className="clients__container">
         <div className="clientlogo">
         <img src={logo9} />
-       
         </div>
         <div className="clientlogo">
           <img src={logo01} />
         </div>
         <div className="clientlogo">
           <img src={logo03} />
+        </div>
+        <div className="clientlogo">
+          <img src={latarte} />
         </div>
         <div className="clientlogo">
           <img src={logo1} />
