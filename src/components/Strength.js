@@ -48,7 +48,7 @@ const Strength = () => {
   }, []);
 
   return (
-    <div className="strength">
+    <div id="#Strength" className="strength">
       <div className="focus-details">
         <div className="focus-number">
           <span>{countExperience}+</span>

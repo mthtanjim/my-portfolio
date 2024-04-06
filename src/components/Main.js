@@ -80,10 +80,7 @@ const Main = () => {
     visible: { opacity: 1, y: 0, transition: { delay: 0.2, duration: 0.5 } },
   };
 
-  const descriptionVariants = {
-    hidden: { opacity: 0, y: 35 },
-    visible: { opacity: 1, y: 0, transition: { delay: 0.6, duration: 0.5 } },
-  };
+
 
   return (
     <div className="main">
