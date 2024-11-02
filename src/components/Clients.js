@@ -5,6 +5,7 @@ import logo03 from "./assets/clients/logo03.png"
 import latarte from "./assets/clients/latarte.png"
 import furniture from "./assets/clients/navana_furniture_logo.png"
 import logo3 from "./assets/clients/logo3.png"
+import secure from "./assets/clients/secure.png"
 import logo1 from "./assets/clients/logo1.png"
 import logo2 from "./assets/clients/logo2.png"
 import logo4 from "./assets/clients/logo4.png"
@@ -26,6 +27,9 @@ const Clients = () => {
         </div>
         <div className="clientlogo">
           <img src={logo01} />
+        </div>
+        <div className="clientlogo">
+          <img src={secure} />
         </div>
         <div className="clientlogo">
           <img src={logo03} />
