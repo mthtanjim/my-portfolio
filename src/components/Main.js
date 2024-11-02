@@ -87,8 +87,8 @@ const Main = () => {
       <div className="main__container">
         <div className="main__content">
           <div className="text">
-            <p>Hey There !</p>
-            <h1 >I'm Tanjimul Hasan Tanjim</h1>
+            <p>Hey There!, I'm </p>
+            <h1 >Tanjimul Hasan Tanjim</h1>
             {/* <motion.h1
         ref={containerRef}
         initial="hidden"

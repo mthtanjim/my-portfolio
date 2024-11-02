@@ -33,11 +33,14 @@
       border-bottom: 1px solid rgba(128, 128, 128, 0.335);
     }
     .course__content {
+      max-height: 500px;
+      overflow-y: auto;
+      padding-left: 1.6rem;
       h1 {
         margin-bottom: 1.5rem;
       }
       .edu-details {
-        line-height: 1.2rem;
+        line-height: 1.4rem;
         margin-bottom: 1rem;
         padding-right: 2rem;
         h4::before {
@@ -55,6 +58,44 @@
 
           background-color: #19182a08;
         }
+        h5{ 
+
+          a {
+          color: rgb(135, 135, 135);
+        }
+      }
+      }
+    }
+    .course__content2 {
+padding-left: clamp(0.625rem, 1.732vw + 0.177rem, 1.563rem);
+      h1 {
+        margin-bottom: 1.5rem;
+      }
+      .edu-details {
+        line-height: 1.4rem;
+        margin-bottom: 1rem;
+        padding-right: 2rem;
+        h4::before {
+          content: "";
+          margin-left: -1.5rem;
+          margin-right: 10px;
+
+          display: inline-block;
+          width: 15px;
+          height: 15px;
+          -moz-border-radius: 7.5px;
+          -webkit-border-radius: 7.5px;
+          border: 3px solid #4f740b;
+          border-radius: 50%;
+
+          background-color: #19182a08;
+        }
+        h5{ 
+
+          a {
+          color: rgb(135, 135, 135);
+        }
+      }
       }
     }
     .education__content {
@@ -132,6 +173,7 @@
       margin-bottom: 1.5rem;
       .edu-details {
         margin-bottom: 0rem;
+
       }
     }
     .education__content {

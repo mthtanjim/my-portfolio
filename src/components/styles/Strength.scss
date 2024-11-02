@@ -22,8 +22,8 @@
   flex-wrap: wrap;
   justify-content: space-around;
   color: white;
-  padding-top: 7%;
-  padding-bottom: 7%;
+  padding-top: 12vw;
+  padding-bottom: 12vw;
   gap: 0.7rem;
   .focus-details {
     display: flex;
@@ -60,6 +60,11 @@
     height: 160px;
     padding: 1rem;
     overflow: hidden;
+    &:hover {
+      border: 10px solid rgba(149, 181, 6, 0.664);
+      box-shadow: 0px 0px 7px 3px rgba(163, 163, 163, 0.678);
+    }
+
     @media screen and (max-width: 768px) {
       width: 120px;
       height: 120px;

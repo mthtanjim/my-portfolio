@@ -77,35 +77,43 @@ const Section = () => {
           </div>
         </div>
         <div className="job_section_content">
-          <h1>Employment History</h1>
+          <h1>Employment History (5yr +)</h1>
           <div className="exp-box">
             <div className="exp-details">
+              <h4>Software Engineer</h4>
+              <h5> <span className="bold">ADVENTURE Dhaka Ltd</span></h5>
+              <span> November 2024 to Running </span>
+            </div>
+       
+            <div className="exp-details">
               <h4>Full Stack Developer</h4>
-              <h5>Contracted by: <span className="bold">NAVANA Group</span></h5>
-              <span> Start date: April 2023 to Running </span>
+              <h5><span className="bold">NAVANA Group</span></h5>
+              <span> April 2023 - October 2024 </span>
             </div>
             <div className="exp-details">
               <h4>Full Stack Developer</h4>
-              <h5>Contracted by: <span className="bold">DOM-INNO Group</span></h5>
-              <span> Start date: August 2021 and completion date: April 2023 </span>
+              <h5><span className="bold">DOM-INNO Group</span></h5>
+              <span> August 2021 - April 2023 </span>
             </div>
+            <br></br>
             <div className="exp-details">
-              <h4>Web Developer</h4>
+              <h4>Web Application Developer</h4>
               <h5>
-                Contracted by: <span className="bold">DEMO Group</span>  <br /> 
+                 <span className="bold">DEMO Group</span>  <br /> 
               </h5>
               <span>
                 {" "}
-                Start date: January 2020 and completion date: July 2021{" "}
+                January 2020 - July 2021{" "}
               </span>
             </div>
-            <div className="exp-details">
+            {/* <br></br> */}
+            {/* <div className="exp-details">
               <h4>IT Support Engineer</h4>
-              <h5>Contracted by: Unicorn Far East Limited</h5>
+              <h5>Unicorn Far East Limited</h5>
               <span>
-                Start date: January 2018 and completion date: December 2019.
+                January 2018 - December 2019.
               </span>
-            </div>
+            </div> */}
           </div>
         </div>
         {/* <div className="section__content">

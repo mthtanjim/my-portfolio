@@ -50,8 +50,33 @@ const Skills = () => {
         <div className="course__content">
           <h1>Course & Certifications</h1>
           <div className="edu-details">
-            <h4>MERN Stack E-Commerce with over 100 how-to solutions</h4>
+            <h4>Learning Redux Toolkit</h4>
+            <span>LinkedIn Learning</span>
+            <br/>
+            <h5>
+            <a href="https://www.linkedin.com/learning/certificates/9b11d54150daa8a047a8b6135468ea1033110303c9a1b26da7ab38917411f041">Show Credential</a>
+            </h5>
+          </div>
+          <div className="edu-details">
+            <h4>React: Design Patterns</h4>
+            <span>LinkedIn Learning</span>
+            <br/>
+            <h5>
+            <a href="https://www.linkedin.com/learning/certificates/1d9622cb9f75e13375a7d3f08177a118600e6dfafbd187dd5a6f3046f232448c?trk=share_certificate">Show Credential</a>
+            </h5>
+          </div>
+
+          <div className="edu-details">
+            <h4>MERN Stack E-Commerce with 100 how-to solutions</h4>
             <span>UDEMY</span>
+          </div>
+          <div className="edu-details">
+            <h4>MySQL Advanced Topics</h4>
+            <span>LinkedIn Learning</span>
+            <br/>
+            <h5>
+            <a href="https://www.linkedin.com/learning/certificates/0da31048543a49c761614954f3a3578ac2514a943d400420e4827e25f04fd5e2">Show Credential</a>
+            </h5>
           </div>
           <div className="edu-details">
             <h4>Digital Marketing </h4>
@@ -69,18 +94,9 @@ const Skills = () => {
             <span>SEMRUSH ACADEMY</span>
             <h5>[Id: 5f76cb827b82c30cdbf54283]</h5>
           </div>
-          <div className="edu-details">
-            <h4>Graphics Design (Photoshop)</h4>
-            <span>Eduonix Learning Solutions</span>
-            <h5>[Id: ea4ed4037e]</h5>
-          </div>
-          <div className="edu-details">
-            <h4>Microsoft Excel</h4>
-            <span>Master of Project Academy</span>
-            <h5>[Id: cert_mwz9y0pk]</h5>
-          </div>
+
         </div>
-        <div className="course__content">
+        <div className="course__content2">
           <div>
             <h1>Educations</h1>
             <div className="edu-details">
@@ -96,7 +112,6 @@ const Skills = () => {
             <div className="edu-details">
               <h4>S.S.C, Science Group;</h4>
               <span>Kishorpur N U A High School</span>
-              <h5>Passing Yers: 2013</h5>
             </div>
           </div>
         </div>

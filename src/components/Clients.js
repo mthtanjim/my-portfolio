@@ -3,6 +3,7 @@ import React from "react";
 import logo01 from "./assets/clients/logo01.png"
 import logo03 from "./assets/clients/logo03.png"
 import latarte from "./assets/clients/latarte.png"
+import furniture from "./assets/clients/navana_furniture_logo.png"
 import logo3 from "./assets/clients/logo3.png"
 import logo1 from "./assets/clients/logo1.png"
 import logo2 from "./assets/clients/logo2.png"
@@ -31,6 +32,9 @@ const Clients = () => {
         </div>
         <div className="clientlogo">
           <img src={latarte} />
+        </div>
+        <div className="clientlogo">
+          <img src={furniture} />
         </div>
         <div className="clientlogo">
           <img src={logo1} />

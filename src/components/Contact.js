@@ -90,7 +90,7 @@ const Contact = () => {
      
     </div>
     <div>
-    <span className="copyright" > Developed by Tanjim, 2022</span>
+    <span className="copyright" > Developed by Tanjimul Hasan Tanjim, 2024</span>
     </div>
     </>
   );

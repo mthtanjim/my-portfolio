@@ -6,6 +6,11 @@ const ToolsData =
     "name": "React Js"
   },
   {
+    "id": 20, 
+    "img": require("./tools/redux.png"),
+    "name": "Redux"
+  },
+  {
     "id": 13,
     "img": require("./tools/nextjs.png"),
     "name": "Next js"
