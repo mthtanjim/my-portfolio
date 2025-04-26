@@ -10,6 +10,13 @@ import bim from "./bim.png";
 
 const projectsData = [
     {
+        id: 1143,
+        title: "OTA (Online Travel Agency)",
+        imgSrc: rnext,
+        liveLink: "#",
+        techStack: ["Next js", "Trpc", "Tailwind CSS"]
+      },
+    {
         id: 11,
         title: "La Tarte (Bakeries)",
         imgSrc: react,

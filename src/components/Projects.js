@@ -5,9 +5,6 @@ import { Link } from "react-router-dom";
 import react from "./assets/projectdemo.jpg";
 
 const Projects = () => {
-  console.log("projects::", projectsData);
-  console.log("react::", react);
-
   return (
     <div className="projects">
       <h1>Recent Projects</h1>

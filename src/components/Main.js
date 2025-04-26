@@ -129,7 +129,7 @@ const Main = () => {
               </a>
             </div>
             <div className="buttons">
-              <a
+              {/* <a
                 href={cv}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -138,7 +138,7 @@ const Main = () => {
                 className="btn-block  p-a15 m-tb10"
               >
                 <button>Downlaod CV</button>
-              </a>
+              </a> */}
 
               <Link to="#Section" spy={true} smooth={true} > <button onClick={handleClick} >About me</button></Link>
 
