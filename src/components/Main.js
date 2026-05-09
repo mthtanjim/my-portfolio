@@ -51,29 +51,6 @@ const Main = () => {
     ref.current?.scrollIntoView({ behavior: 'smooth' })
   }
 
-
-  // useEffect(() => {
-  //   const observer = new IntersectionObserver(
-  //     (entries) => {
-  //       if (entries[0].isIntersecting) {
-  //         setIsVisible(true);
-  //       } else {
-  //         setIsVisible(false);
-  //       }
-  //     },
-  //     { threshold: 0.1 }
-  //   );
-
-  //   if (containerRef.current) {
-  //     observer.observe(containerRef.current);
-  //   }
-  //   return () => {
-  //     if (containerRef.current) {
-  //       observer.unobserve(containerRef.current);
-  //     }
-  //   };
-  // }, [containerRef]);
-
   // Define animation variants
   const titleVariants = {
     hidden: { opacity: 0, y: 45 },
@@ -89,15 +66,8 @@ const Main = () => {
           <div className="text">
             <p>Hey There!, I'm </p>
             <h1 >Tanjimul Hasan Tanjim</h1>
-            {/* <motion.h1
-        ref={containerRef}
-        initial="hidden"
-        animate={isVisible ? "visible" : "hidden"}
-        variants={titleVariants}
-      >I am Tanjim</motion.h1> */}
             <p
-            >Full Stack Software Developer</p>
-            {/* <p style={{lineHeight: "25px"}} >& SEO Expert</p> */}
+            >Full Stack Software Engineer</p>
             <div className="icons">
               <a
                 href="https://www.linkedin.com/in/mthtanjim/"
@@ -113,13 +83,6 @@ const Main = () => {
               >
                 <Facebook className="icon" />
               </a>
-              {/* <a
-                href="https://instagram.com/mthtanjim"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Instagram className="icon" />
-              </a> */}
               <a
                 href="https://github.com/mthtanjim"
                 target="_blank"
@@ -146,9 +109,13 @@ const Main = () => {
           </div>
         </div>
 
-        <div className="main__img">
-          <img src={tanjim} alt="" />
-        </div>
+
+<div className="main__img__wrapper">
+  <div className="main__img">
+    <img src={tanjim} alt="Tanjimul Hasan Tanjim" />
+  </div>
+</div>
+        
       </div>
       {/* scroll down */}
       <Link onClick={handleClick} to="#Section" spy={true} smooth={true} >

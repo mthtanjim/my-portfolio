@@ -47,8 +47,9 @@ const Skills = () => {
         </div>
       </div>
       <div className="edu_course_container">
-        <div className="course__content">
+        <div >
           <h1>Course & Certifications</h1>
+          <div className="course__content"> 
           <div className="edu-details">
             <h4>Learning Redux Toolkit</h4>
             <span>LinkedIn Learning</span>
@@ -94,7 +95,7 @@ const Skills = () => {
             <span>SEMRUSH ACADEMY</span>
             <h5>[Id: 5f76cb827b82c30cdbf54283]</h5>
           </div>
-
+</div>
         </div>
         <div className="course__content2">
           <div>

@@ -1,14 +1,25 @@
+/* Added custom @font-face definitions for Pacifico font */
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/pacifico/v23/FwZY7-Qmy14u9lezJ-6H6Mk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Ensure the font import is at the very top of the file */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 .main {
   min-height: 100vh;
   max-width: 100%;
-  background: linear-gradient(233deg, #4e054ae1, #09494b, #174610e2, #38085f);
+  background: linear-gradient(233deg, #2e0230, #062a2b, #0f2d0b, #25043f);
   width:100%;
   height:100vh;
   background-size:cover;
   background-blend-mode: hard-light;
-  animation: hue-rotate 6s linear infinite;
-  // box-shadow: 0px 7px 30px #221e4a87;
-
   position: relative;
 
   &::before,
@@ -18,26 +29,12 @@
     left: 0;
   }
   &::before {
-    // clip-path: polygon(100% 33%, 0% 100%, 100% 100%);
-    background-image: url('../assets/gif2.gif');
-    opacity: .3;
+    background-image: url('../assets/bg2.png');
+    opacity: 0.2;
     width: 100%;
     height: 100%;
-  }
-}
-
-@keyframes hue-rotate {
-  from {
-    -webkit-filter: hue-rotate(0);
-    -moz-filter: hue-rotate(0);
-    -ms-filter: hue-rotate(0);
-    filter: hue-rotate(0);
-  }
-  to {
-    -webkit-filter: hue-rotate(360deg);
-    -moz-filter: hue-rotate(360deg);
-    -ms-filter: hue-rotate(360deg);
-    filter: hue-rotate(360deg);
+    background-size: cover;
+    background-position: top;
   }
 }
 
@@ -54,19 +51,21 @@
 }
 
 .text {
-  line-height: 55px;
+  line-height: 40px;
+  font-family: 'Pacifico', cursive; 
   p {
-    color: rgb(234, 234, 234);
+    color: #d0d4dfe0; // Softer gray for better balance
     text-transform: uppercase;
     font-size: 22px;
-    text-shadow: 1px 1px 10px rgb(199, 199, 199);
+    text-shadow: 1px 1px 8px rgba(255, 255, 255, 0.3); // Subtle effect
   }
 
   h1 {
-    color: rgb(33, 27, 65);
-    text-shadow: 5px 5px 10px rgb(241, 238, 238);
-    font-size: 50px;
+    color: #d1d1d1db; // Muted light gray for a professional look
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4); // Softer shadow for depth
+    font-size: 36px;
     text-transform: uppercase;
+    letter-spacing: 1.5px; // Added spacing for a clean developer aesthetic
   }
   
 }
@@ -108,21 +107,31 @@
   }
 }
 
-.main__img {
-  clip-path: circle(45% at 50% 49%);
-  cursor: pointer;
-  back img {
-    background: linear-gradient(45deg, rgb(21, 11, 55), rgb(45, 11, 123));
+.main__img__wrapper {
+  width: 380px;   /* match your exact image size */
+  height: 380px;  /* must be equal to width */
+  border-radius: 50%;
+  box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.703),
+              0px 2px 10px rgba(21, 11, 55, 0.45);
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0px 8px 32px rgba(10, 7, 48, 0.9),
+              0px 2px 10px rgba(15, 6, 43, 0.8);
   }
-  &::before {
-    clip-path: polygon(100% 33%, 0% 100%, 100% 100%);
-    background: linear-gradient(
-      45deg,
-      rgba(216, 46, 8, 0.085),
-      rgba(62, 7, 189, 0.126)
-    );
+}
+
+.main__img {
+  width: 100%;
+  height: 100%;
+  clip-path: circle(50% at 50% 50%);
+  cursor: pointer;
+
+  img {
+    display: block;
     width: 100%;
     height: 100%;
+    object-fit: cover;
   }
 }
 
@@ -174,126 +183,12 @@
   }
 }
 
-// Scrill down start
-.arrow-container{
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
-  position: absolute;
-  bottom: 25px;
-  left: 0;
-  right: 0;
-}
-
-.arrow-1{
-  width: 100px;
-  height: 100px;
-  background: #00BCD4;
-  opacity: 0.5;
-  border-radius: 50%;
-  position: absolute;
-}
-
-.arrow-2{
-  width: 60px;
-  height: 60px;
-  background: #00BCD4;
-  border-radius: 50%;
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  z-index: 1;
-  display: table;
-}
-
-.arrow-2:before{
-  width: 52px;
-  height: 52px;
-  content: "";
-  border: 2px solid #006064;
-  border-radius: 50%;
-  position: absolute;
-  top: 2px;
-  left: 2px;
-}
-
-.arrow-2 i.fa{
-  font-size: 30px;
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  color: #006064;
-}
-
-/* Custom Animate.css */
-$size: 35px;
-$speed: 3s;
-$peakopacity:0.7;
-
-
-  .arrows {
-    // position: fixed;
-    /**/
-    position: fixed;
-    top:95%;
-    left:50%;
-    /**/
-    width:$size;
-    height:$size;
-    // background-color: red;
-    transform:translate(-50%,-50%);
-    &:before {
-      content: '';
-      position: absolute;
-      width:100%;
-      height:100%;
-      border-left:$size/3 solid rgba(0,0,0,$peakopacity);
-      border-bottom:$size/3 solid rgba(0,0,0,$peakopacity);
-      transform:translate($size/3,$size*4/3)rotate(-45deg);
-      animation: arrows $speed linear infinite;
-    }
-    &:after {
-      content: '';
-      position: absolute;
-      width:100%;
-      height:100%;
-      border-left:$size/3 solid rgba(0,0,0,$peakopacity);
-      border-bottom:$size/3 solid rgba(0,0,0,$peakopacity);
-      transform:translate($size*2/3,0px)rotate(-45deg) ;
-      animation: arrows $speed linear infinite $speed/-2;
-    }
-  }
-
-@keyframes arrows {
-  0% {
-      border-left:$size/3 solid rgba(255, 255, 255, 0);
-      border-bottom:$size/3 solid rgba(0,0,0,0);
-      transform:translate($size/-6,$size*4/-6)rotate(-45deg) ;
-  }
-  10%, 90% {
-      border-left:$size/3 solid rgba(0,0,0,0);
-      border-bottom:$size/3 solid rgba(0,0,0,0);
-  }
-  50% {
-      border-left:$size/3 solid rgba(0,0,0,$peakopacity);
-      border-bottom:$size/3 solid rgba(0,0,0,$peakopacity);
-      transform:translate($size/-6,0px)rotate(-45deg) ;
-  }
-  100% {
-      border-left:$size/3 solid rgba(0,0,0,0);
-      border-bottom:$size/3 solid rgba(0,0,0,0);
-      transform:translate($size/-6,$size*4/6)rotate(-45deg) ;
-  }
-}
 @media (max-width: 400px) {
     .arrows {
       width: 30px;
       height:30px;
     }
 }
-
-// Scrill down end
-
 
 @media (max-width: 736px) {
   .arrows {
@@ -341,7 +236,6 @@ $peakopacity:0.7;
     }
   }
 }
-
 
 @media (max-width: 600px) { 
   .text {

@@ -23,20 +23,8 @@ const Section = () => {
         </div>
         <div className="ProfessionalSkills">
           <img src={code} alt="" />
-          <h2>API Development for Software</h2>
-          <p>Build robust and scalable RESTful API for seamless communication between software systems and platforms.</p>
-        </div>
-        <div className="ProfessionalSkills">
-          <img src={code} alt="" />
-          {/* <BsCodeSlash className="ProfessionalIcon" /> */}
-          <h2>Custom Application Development</h2>
-          <p>Create bespoke web applications for diverse client needs, including content management and CRM systems.</p>
-        </div>
-        <div className="ProfessionalSkills">
-          <img src={code} alt="" />
-          {/* <BsCodeSlash className="ProfessionalIcon" /> */}
-          <h2>Backend Development</h2>
-          <p>I excel in backend development using Node.js, Express js and NestJs</p>
+          <h2>API Development</h2>
+          <p>Design and build robust, scalable RESTful APIs for seamless integration between software systems and platforms.</p>
         </div>
 
         <div className="ProfessionalSkills">
@@ -44,30 +32,29 @@ const Section = () => {
           {/* <BsCodeSlash className="ProfessionalIcon" /> */}
           <h2>Frontend Developement</h2>
           <p>
-          I specialize in developing frontend using React.js and Next.js framework.
+          Specialised in building modern, responsive frontends with React.js and Next.js.
           </p>
         </div>
-   
-        <div className="ProfessionalSkills">
-          <img src={digital} alt="" />
-          <h2>E-commerce Application</h2>
-          <p>I specialize in developing E-commerce applications tailored to your business needs.</p>
+                <div className="ProfessionalSkills">
+          <img src={code} alt="" />
+          {/* <BsCodeSlash className="ProfessionalIcon" /> */}
+          <h2>Custom Application Development</h2>
+          <p>Develop bespoke web applications tailored to client needs, including CMS and CRM systems.</p>
         </div>
     
         <div className="ProfessionalSkills">
           <img src={digital} alt="" />
-          <h2>Business Website</h2>
-          <p>I create SEO-friendly business websites designed to enhance your online presence.</p>
+          <h2>Corporate Web Development</h2>
+          <p>SEO-friendly, conversion-focused business websites designed to strengthen your online presence.</p>
         </div>
 
         <div className="ProfessionalSkills">
           <img src={seo} alt="" />
           <h2>Search Engine Optimization (SEO)</h2>
-          <p>Get expert on-page SEO services tailored to all types of websites.</p>
+          <p>Comprehensive on-page SEO services tailored to all website types — from landing pages to large-scale platforms.</p>
         </div>
       </div>
 
-      {/* after professional skills */}
       {/* after professional skills */}
 
       <div className="section__container">
@@ -106,14 +93,7 @@ const Section = () => {
                 January 2020 - July 2021{" "}
               </span>
             </div>
-            {/* <br></br> */}
-            {/* <div className="exp-details">
-              <h4>IT Support Engineer</h4>
-              <h5>Unicorn Far East Limited</h5>
-              <span>
-                January 2018 - December 2019.
-              </span>
-            </div> */}
+           
           </div>
         </div>
         {/* <div className="section__content">
