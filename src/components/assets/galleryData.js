@@ -30,7 +30,6 @@ const GalleryData =
     "src": require("./gallery/img.jpg"),
     "tag": ""
   },
-  ,
   {
     "id": 2,
     "src": require("./gallery/img2.jpeg"),
