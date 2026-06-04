@@ -35,7 +35,6 @@ const GalleryData =
     "src": require("./gallery/img2.jpeg"),
     "tag": ""
   },
-  ,
   {
     "id": 2,
     "src": require("./gallery/img1.jpg"),
@@ -51,7 +50,7 @@ const GalleryData =
     "id": 3,
     "src": require("./gallery/dominno md with tanjim.jpeg"),
     "tag": ""
-  },
+  }
   
 ]
 
