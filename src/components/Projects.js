@@ -1,8 +1,6 @@
 import React from "react";
 import "./styles/Works.scss";
 import projectsData from "./assets/data";
-import { Link } from "react-router-dom";
-import react from "./assets/projectdemo.jpg";
 
 const Projects = () => {
   return (

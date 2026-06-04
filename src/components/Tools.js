@@ -1,23 +1,5 @@
 import React from "react";
 
-import api from "./assets/tools/api.png";
-import bs from "./assets/tools/bs.png";
-import c from "./assets/tools/c.jpg";
-import css from "./assets/tools/css.png";
-import es6 from "./assets/tools/es6.png";
-import express from "./assets/tools/express.png";
-import firebase from "./assets/tools/firebasepng.png";
-import git from "./assets/tools/git.png";
-import heroku from "./assets/tools/herokupng.png";
-import js from "./assets/tools/js.png";
-import mongo from "./assets/tools/mongo.png";
-import mongoose from "./assets/tools/mongoose.png";
-import netly from "./assets/tools/netly.png";
-import nextjs from "./assets/tools/nextjs.png";
-import node from "./assets/tools/node.png";
-import react from "./assets/tools/react.png";
-import sass from "./assets/tools/sass.png";
-import tailwind from "./assets/tools/tailwind.png";
 import ToolsData from "./assets/Tools";
 import ui from "./assets/tools/ui.png";
 

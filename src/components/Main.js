@@ -1,61 +1,18 @@
 import { Facebook, GitHub, LinkedIn } from "@material-ui/icons";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef } from "react";
 // import { HashLink as Link } from "react-scroll";
 import { HashLink as Link } from 'react-router-hash-link';
 
-import cv from "./assets/cv.pdf";
 import tanjim from "./assets/Md-Tanjimul-Hasan-Tanjim.jpg";
 
 import "./styles/Main.scss";
 
 const Main = () => {
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 5,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 3000,
-    autoplaySpeed: 500,
-    cssEase: "linear",
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 4,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
-  const [isVisible, setIsVisible] = useState(false);
-  const containerRef = useRef(null);
-
   const ref = useRef(null)
   const handleClick = () => {
     ref.current?.scrollIntoView({ behavior: 'smooth' })
   }
-
-  // Define animation variants
-  const titleVariants = {
-    hidden: { opacity: 0, y: 45 },
-    visible: { opacity: 1, y: 0, transition: { delay: 0.2, duration: 0.5 } },
-  };
 
 
 

@@ -1,4 +1,4 @@
-import { Close, FiberManualRecordOutlined, MenuOutlined } from '@material-ui/icons'
+import { Close, MenuOutlined } from '@material-ui/icons'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './styles/Header.scss'

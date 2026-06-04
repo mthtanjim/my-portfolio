@@ -1,24 +1,12 @@
 import React from "react";
-import { MdWifiCalling3, MdArrowRightAlt } from "react-icons/md";
+import { MdWifiCalling3 } from "react-icons/md";
 import { AiFillSkype, AiOutlineMail } from "react-icons/ai";
 import { BsWhatsapp } from "react-icons/bs";
-
-
-import {
-  Link,
-  Button,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 import {
   Facebook,
   Instagram,
   LinkedIn,
-  Pinterest,
-  Twitter,
   GitHub,
 } from "@material-ui/icons";
 import "./styles/Contact.scss";
@@ -97,9 +85,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-{
-  /* <Link to='/'>
-<ArrowBack className='arrow'/>
-</Link> */
-}
